@@ -20,13 +20,13 @@
       }
    ],
    "run_settings": {
-      "cypress_config_file": "cypress.js",
+      "cypress_config_file": "cypress.json",
       "build_name": "build-name",
       "parallels": 1,
-      "specs": "./cypress/e2e/curaapp.cy.js",
+      "specs": "./cypress/integration/*.js",
       "ignore_files": "",
       "feature_file_suppport": false,
-      "network": false,
+      "network": true,
       "headless": false,
       "reporter_config_file": "",
       "npm_dependencies": {
