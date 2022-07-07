@@ -1,0 +1,40 @@
+{
+   "lambdatest_auth": {
+      "username": "afirdaus.pe",
+      "access_key": "F5G7xXF337VPp57DruzH3tjLzjZWX1MxUKypVhPYmBuoMVMrMQ"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      },
+      {
+         "browser": "Firefox",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      "cypress_config_file": "cypress.js",
+      "build_name": "build-name",
+      "parallels": 1,
+      "specs": "./cypress/e2e/curaapp.cy.js",
+      "ignore_files": "",
+      "feature_file_suppport": false,
+      "network": false,
+      "headless": false,
+      "reporter_config_file": "",
+      "npm_dependencies": {
+         "cypress": "9.0.0"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}
